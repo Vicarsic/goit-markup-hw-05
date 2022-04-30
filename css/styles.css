@@ -834,17 +834,14 @@ ul {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-close {
     position: absolute;
-    top: 9px;
-    right: 9px;
-    bottom: 10px;
-    left: 10px;
+    display: flex;
     color: #000000;
-    
+
 
     
 
