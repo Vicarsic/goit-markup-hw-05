@@ -839,8 +839,10 @@ ul {
 .icon-close {
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 9px;
+    right: 9px;
+    bottom: 10px;
+    left: 10px;
     fill: var(--primary-white-color);
 
 
