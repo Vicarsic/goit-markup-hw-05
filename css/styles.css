@@ -826,6 +826,9 @@ ul {
 }
 .modal-close-btn {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 8px;
     right: 8px;
     width: 30px;
@@ -836,19 +839,10 @@ ul {
     box-sizing: border-box;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-modal-close-icon {
-    position: absolute;
-    display: flex;
-}
-
 .icon-close {
     position: absolute;
     display: flex;
     color: #000000;
-
-
-    
-
 
 }
 .is-hidden {
