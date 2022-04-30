@@ -838,7 +838,6 @@ ul {
 
 .icon-close {
     position: absolute;
-    display: flex;
     top: 9px;
     right: 9px;
     bottom: 10px;
