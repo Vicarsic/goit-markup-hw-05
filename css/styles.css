@@ -826,8 +826,10 @@ ul {
 }
 .modal-close-btn {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 9px;
+    right: 9px;
+    bottom: 10px;
+    left: 10px;
     width: 30px;
     height: 30px;
     justify-content: center;
