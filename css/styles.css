@@ -828,6 +828,8 @@ ul {
     position: absolute;
     top: 8px;
     right: 8px;
+    width: 30px;
+    height: 30px;
     background-color: var(--primary-white-color);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
