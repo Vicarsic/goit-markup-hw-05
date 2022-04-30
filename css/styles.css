@@ -61,6 +61,7 @@ img {
     
 }
 /* Header */
+
 ul {
     list-style: none;
     padding: 0;
@@ -70,6 +71,7 @@ ul {
 .link-two,
 .link-down {
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .site-nav.list {
@@ -97,6 +99,7 @@ ul {
 .site-nav {
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link {
     position: relative;
@@ -104,6 +107,9 @@ ul {
     color: var(--title-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .list-current::after {
     content: "";
@@ -123,7 +129,8 @@ ul {
 
 .contact.list {
     display: flex;
-    margin-left: auto;    
+    margin-left: auto;
+        
 }
 .contact .cont + .cont,
 .contact .connect-item + .connect-item{
@@ -181,6 +188,8 @@ ul {
     display: flex;
     align-items: center;
     color: var(--primary-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-link .icon-contact:hover,
 .contact-link .icon-contact:focus {
@@ -220,6 +229,10 @@ ul {
     border: none;
     padding: 6px 22px;
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter .buttons {
     color: var(--title-text-color);
@@ -228,6 +241,10 @@ ul {
     border: none;
     padding: 6px 22px;
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter .buttons-all:hover,
 .filter .buttons-all:focus {
@@ -252,16 +269,22 @@ ul {
     flex-wrap: wrap;
 }
 .pic {
-    width: 370px;       
+    width: 370px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .pic:hover .top-text {
     transform: translateY(0);
 }
 
-
 .card {
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card:hover,
 .card:focus { 
@@ -307,6 +330,7 @@ ul {
 }
 
 /* Герой */
+
 .hero {
     padding: 200px 0;
     text-align: center;
@@ -358,6 +382,10 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     letter-spacing: 0.06em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero .button {
     display: inline-block;
@@ -367,6 +395,12 @@ ul {
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+}
+.but {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .but .one {
     width: 73px;
@@ -589,8 +623,11 @@ ul {
     height: 44px;
     background-color: var(--backgrcolor) ;
     border-radius: 50%;
-        
     fill: var(--primary-white-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .masters-soc-icon {
     fill: var(--icon-color);
@@ -612,12 +649,10 @@ ul {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-    
 
 .staff {
     background-color: var(--primary-white-color);
 }
-
 
 /* Наши клиенты */
 
@@ -638,9 +673,9 @@ ul {
 .client-list {
     display: flex;
     
-    
 }
 .client-link {
+    display: flex;
     border-color: var(--icon-color);
     padding-top: 16px;
     padding-bottom: 16px;
@@ -650,13 +685,17 @@ ul {
     width: 100%;
     box-sizing: border-box;
     background-color: transparent;
-    display: flex;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-icon {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg {
@@ -714,12 +753,15 @@ ul {
 .city {
     margin-top: 20px;
     margin-bottom: 9px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-item {
     font-size: 14px;
     line-height: 1.71;
     color: var(--contact-color);
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+       
 }
 .contact-item:not(:last-child) {
     margin-top: 9px;
@@ -761,10 +803,10 @@ ul {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden .modal {
-    transform: translate(0) scale(1);
+    transform: scale(0.5) rotate(-270deg);
 }
 .modal {
     position: absolute;
@@ -779,7 +821,7 @@ ul {
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: transform 250ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .modal-close-btn {
@@ -792,6 +834,7 @@ ul {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
     visibility: hidden;
