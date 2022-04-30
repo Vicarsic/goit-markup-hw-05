@@ -826,7 +826,8 @@ ul {
 }
 .modal-close-btn {
     position: absolute;
-    display: flex;
+    top: 8px;
+    right: 8px;
     width: 30px;
     height: 30px;
     background-color: #FFFFFF;
@@ -843,6 +844,7 @@ ul {
     bottom: 10px;
     left: 10px;
     color: #000000;
+    
 
     
 
