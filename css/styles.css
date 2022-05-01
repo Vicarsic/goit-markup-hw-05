@@ -279,8 +279,8 @@ ul {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
-.top-wrap:hover .top-text,
-.top-wrap:focus .top-text {
+.pic:hover .top-text,
+.pic:focus .top-text {
     transform: translateY(0);
 }
 
@@ -625,7 +625,7 @@ ul {
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: var(--backgrcolor) ;
+    background-color: var(--backgrcolor);
     border-radius: 50%;
     fill: var(--primary-white-color);
     transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
