@@ -211,63 +211,15 @@ ul {
 /* Filter Portfolio */
 
 .filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-}
-.filter {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
     margin-bottom: 50px;
 }
-.filter .but + .but {
-    margin-left: 8px;
-}
-.filter .buttons-all {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    font-weight: 500;
-    border: none;
-    padding: 6px 22px;
-    border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filter .buttons {
-    color: var(--title-text-color);
-    cursor: pointer;
-    font-weight: 500;
-    border: none;
-    padding: 6px 22px;
-    border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filter .buttons-all:hover,
-.filter .buttons-all:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-}
-
-.filter .buttons:hover,
-.filter .buttons:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-
-    background-color: var(--accent-color);
-    
-    box-shadow: 0px 3px 1px var(--bowshadow-one),
-    0px 1px 2px var(--boxshadow-two),
-    0px 2px 2px var(--boxshadow-three);
-    border-radius: 4px;
-}   
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -372,6 +324,46 @@ ul {
 
 /* Buttons */
 
+.filter .but + .but {
+    margin-left: 8px;
+}
+
+
+.buttons {
+    color: var(--title-text-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border: none;
+    padding: 6px 22px;
+    font-family: inherit;
+    border-radius: 4px;
+    background-color: var(--team-bgd-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.filter .buttons-all:hover,
+.filter .buttons-all:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.filter .buttons:hover,
+.filter .buttons:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+    background-color: var(--accent-color);
+    
+    box-shadow: 0px 3px 1px var(--bowshadow-one),
+    0px 1px 2px var(--boxshadow-two),
+    0px 2px 2px var(--boxshadow-three);
+    border-radius: 4px;
+}   
 .button {
     font-family: 'Roboto';
     font-weight: 700;
@@ -407,26 +399,8 @@ ul {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.but .one {
-    width: 73px;
-    height: 38px;
-}
-.but .two {
-    width: 128px;
-    height: 38px;
-}
-.but .three {
-    width: 145px;
-    height: 38px;
-}
-.but .four {
-    width: 103px;
-    height: 38px;
-}
-.but .five {
-    width: 130px;
-    height: 38px;
-}
+
+
 
 /* Преимущества */
 
